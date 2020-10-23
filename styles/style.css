@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.big-image {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url("../Images/main-bg1.jpg");
+  
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overlay h1 {
+  font-size: 65px;
+  letter-spacing: 0px;
+  margin: 0 0 5px;
+  padding-top: 19px;
+  font-size: 5rem;
+  padding-bottom: 20px;
+}
+
+.overlay p {
+  margin: 0;
+  font-size: 28px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-item {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.quote {
+  text-align: center;
+  padding: 8% 3%;
+}
+
+.quote-heading {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.quote-author {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.aim {
+  text-align: center;
+  background-color: #C3073F;
+  padding: 8% 3%;
+  color: white;
+}
+
+.aim img{
+  height: 400px;
+  width: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.aim h3{
+  padding-top: 50px;
+  font-size: 4rem;
+  color: white;
+}
+
+.aim p {
+  padding-top: 50px;
+  font-size: 1.5rem;
+}
+
+.our-work {
+  text-align: center;
+  padding: 10% 3%;
+}
+
+.our-work img{
+  float: right;
+  height: 300px;
+  width: auto;
+  margin-left: 30px;
+}
+
+.our-work h3 {
+  padding-top: 20px;
+  font-size: 4rem;
+  color: black;
+}
+
+.our-work p {
+  padding-top: 30px;
+  font-size: 1.3rem;
+}
+
+.customers-say {
+  padding: 10% 3%;
+  text-align: center;
+  background-color: #C3073F;
+  color: white;
+}
+
+.customers-say h1 {
+  font-size: 4rem;
+  padding-bottom: 2%;
+}
+
+.customer-box {
+  color: white;
+  padding-top: 3%;
+
+}
+
+.customers-say li{
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  margin: 60px 50px;
+  border: 2px solid white;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+
+.footer {
+  padding: 3%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgb(70, 68, 68);
+}

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.big-image {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("../Images/pexels-abstrakt-xxcellence-studios-2217613.jpg");
+  }
+  
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .overlay h1 {
+    font-size: 65px;
+    letter-spacing: 0px;
+    margin: 0 0 5px;
+    padding-top: 19px;
+    font-size: 5rem;
+    padding-bottom: 20px;
+  }
+
+  
+.navbar {
+    background-color: black;
+}
+
+.nav-item {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+
+.contact-form {
+    margin: 2rem 3rem;
+    padding: 8% 3%;
+    text-align: center;
+}
+
+.form-input {
+    display: block;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.heading {
+  color: #C3073F;
+}
+
+.footer {
+    padding: 3%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(70, 68, 68);
+  }
