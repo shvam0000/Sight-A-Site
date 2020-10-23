@@ -1,7 +1,7 @@
 # Sight-A-Site
 A sample digital marketing solutions website for Coding Ninjas SRM recruitment drive.
 
-## Tools User
+## Tools Used
 - HTML
 - CSS
 - Bootstrap
